@@ -1,6 +1,7 @@
 body {
-    background-image: url('http://images5.fanpop.com/image/photos/30700000/The-Beach-coney-island-30740799-1115-740.jpg')
+    background-image: url('http://images5.fanpop.com/image/photos/30700000/The-Beach-coney-island-30740799-1115-740.jpg');
     background-size: 1280px 700px;
+    background-repeat: no-repeat;
     
 }
 
@@ -22,11 +23,11 @@ body {
 }
 
 #gummies {
-    position: fixed;
+    position: absolute;
     left: 300px;
     width: 140px;
     bottom:500px;
-        
+    z-index: 2;
 }
 
 #sprinkles {
@@ -72,7 +73,7 @@ body {
 
 #cone {
     position: relative;
-    left: 500px;
+    left: 645px;
     top: 0px;
     z-index: 1;
 }

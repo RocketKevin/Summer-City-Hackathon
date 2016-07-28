@@ -1,12 +1,11 @@
 $(document).ready(function() {
   var t = 100;
- // $("#gummies").+css({top:'300px'})
-  /*  setInterval(function() {
-        $("#gummies").css({top:t"px"})
-        t += 5;
+ $("#gummies").css({top:'300px'})
+  setInterval(function() {
+        $("#gummies").css({top:t+"px"})
+        t += 10;
         console.log(t)
     }, 1000);
-*/
     var keyLeft = false;
     var keyRight = false;
     var x = 500;
@@ -16,20 +15,20 @@ $(document).ready(function() {
         if (event.which == 37) {
             keyLeft = true;
      //       setLeftX(x);
-            $("#cone").css("left", "300px");
+            $("#cone").css("left", "330px");
 
         }
         else if (event.which == 39) {
             keyRight = true;
        //     setRightX(x);
-            $("#cone").css("left", "700px");
+            $("#cone").css("left", "925px");
         }
         else if(event.which == 40)
         {
-        $("#cone").css("left", "500px")
+        $("#cone").css("left", "645px")
         }
         else if ((event.which != 37) && (event.which != 39) && (event.which != 40)) {
-            alert("try left, right, or down keys!");
+            alert("Try using the left, right, or down keys!");
             keyLeft = false;
             keyRight = false;
         }
