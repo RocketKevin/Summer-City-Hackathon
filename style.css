@@ -1,0 +1,67 @@
+body {
+    background-image: url('');
+}
+canvas {
+  display:block;
+  margin:auto;
+  border:5px dashed black;
+}
+
+#coneimage {
+    height: 150px;
+    width: auto;
+    position: fixed;
+    bottom: 120px;
+    z-index: 1;
+}
+
+#table {
+    height: 20px;
+    width: 20%;
+    bottom: 60px;
+    position:fixed;
+    padding: 15%;
+}
+
+#gummies {
+    position: fixed;
+    left: 300px;
+    width: 150px;
+        
+}
+
+#sprinkles {
+    width: 150px;
+    position: fixed;
+    left: 300px;
+    bottom: 500px;
+}
+
+#chocolate {
+    width: 150px;
+    position: fixed;
+    bottom: 500px;
+    left: 300px;
+}
+
+#snek{
+    width: 150px;
+    height:150px;
+    position:absolute;
+}
+
+#cone {
+    padding-left: 500px;
+}
+
+#text1 {
+    z-index: 1;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    background: red;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 280px;
+    left: 500px;
+}
