@@ -1,14 +1,13 @@
 body {
-    background-image: url('');
-}
-canvas {
-  display:block;
-  margin:auto;
-  border:5px dashed black;
+    background-image: url('http://images5.fanpop.com/image/photos/30700000/The-Beach-coney-island-30740799-1115-740.jpg');
+    background-repeat: no-repeat;
+    background-size: 1280px 700px;
+    
 }
 
+
 #coneimage {
-    height: 150px;
+    height: 210px;
     width: auto;
     position: fixed;
     bottom: 120px;
@@ -26,22 +25,44 @@ canvas {
 #gummies {
     position: fixed;
     left: 300px;
-    width: 150px;
+    width: 140px;
+    bottom:500px;
         
 }
 
 #sprinkles {
-    width: 150px;
+    width: 140px;
     position: fixed;
     left: 300px;
     bottom: 500px;
 }
 
 #chocolate {
-    width: 150px;
+    width: 140px;
     position: fixed;
     bottom: 500px;
     left: 300px;
+}
+
+#gummies2 {
+    position: fixed;
+    left:900px;
+    width: 140px;
+    bottom:500px;
+}
+
+#sprinkles2 {
+    position: fixed;
+    left:900px;
+    width:140px;
+    bottom:500px;
+}
+
+#chocolate2 {
+    position: fixed;
+    left:900px;
+    width:140px;
+    bottom:500px;
 }
 
 #snek{
@@ -51,17 +72,22 @@ canvas {
 }
 
 #cone {
-    padding-left: 500px;
+    position: relative;
+    left: 500px;
+    top: 0px;
+    z-index: 1;
 }
 
 #text1 {
     z-index: 1;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     text-align: center;
     background: red;
     box-sizing: border-box;
     position: fixed;
-    bottom: 280px;
+    bottom: 350px;
     left: 500px;
+    font-family: "Comic Sans MS";
+    border: 2px solid;
 }
