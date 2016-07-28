@@ -1,0 +1,65 @@
+#gbicecream {
+    height: 500px;
+    position: fixed;
+    left: 500px;
+}
+
+#text2 {
+    z-index: 1;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    position: fixed;
+    left: 520px;
+    top: 500px;
+    font-family: "Comic Sans MS";
+    border: 10px dotted;
+    border-color: cyan;
+    border-radius: 10px;
+}
+
+#sicecream {
+    height: 500px;
+    position: fixed;
+    left: 370px;
+}
+
+#text3 {
+    z-index: 1;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    position: fixed;
+    left: 520px;
+    top: 500px;
+    font-family: "Comic Sans MS";
+    border: 10px dotted;
+    border-color: cyan;
+    border-radius: 10px;
+}
+
+#ccicecream {
+    height: 500px;
+    position: fixed;
+    left: 370px;
+}
+
+#text4 {
+    z-index: 1;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    position: fixed;
+    left: 250px;
+    top: 500px;
+    font-family: "Comic Sans MS";
+    border: 10px dotted;
+    border-color: cyan;
+    border-radius: 10px;
+}

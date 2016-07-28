@@ -35,6 +35,7 @@ body {
     position: absolute;
     left: 500px;
     bottom: 400px;
+    z-index: 2;
 }
 
 #chocolate {
@@ -42,6 +43,7 @@ body {
     position: absolute;
     bottom: 400px;
     left: 700px;
+    z-index: 2;
 }
 
 #mm {
@@ -49,6 +51,7 @@ body {
     left:900px;
     width: 140px;
     bottom:400px;
+    z-index: 2;
 }
 
 #snek{
@@ -67,14 +70,14 @@ body {
 #text1 {
     z-index: 1;
     font-size: 40px;
-    color: black;
+    color: white;
     text-align: center;
-    background: white;
+    background: transparent;
     box-sizing: border-box;
     position: fixed;
     left: 550px;
     font-family: "Comic Sans MS";
-    border: 10px solid;
+    border: 10px dashed;
     border-color: cyan;
     border-radius: 10px;
 }
@@ -116,4 +119,9 @@ body {
     z-index: 1;
     top: 400px;
     left: 36px;
+}
+
+#gbicecream {
+    height: 50px;
+    width: 50px;
 }
