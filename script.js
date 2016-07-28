@@ -1,11 +1,52 @@
 $(document).ready(function() {
-  var t = 100;
- $("#gummies").css({top:'300px'})
+    $("#button1").click(function(){
+          var t = 100;
+ $("#gummies").css({top:'100px'})
   setInterval(function() {
         $("#gummies").css({top:t+"px"})
-        t += 10;
-        console.log(t)
+        t += 30;
+        
+        if (t === 310)
+        t=100
     }, 1000);
+    })
+
+$("#button2").click(function(){
+          var t = 100;
+ $("#sprinkles").css({top:'100px'})
+  setInterval(function() {
+        $("#sprinkles").css({top:t+"px"})
+        t += 30;
+        
+        if (t === 310)
+        t=100
+    }, 1000);
+    })
+
+$("#button3").click(function(){
+          var t = 100;
+ $("#chocolate").css({top:'100px'})
+  setInterval(function() {
+        $("#chocolate").css({top:t+"px"})
+        t += 30;
+        
+        if (t === 310)
+        t=100
+    }, 1000);
+    })
+
+$("#button4").click(function(){
+          var t = 100;
+ $("#mm").css({top:'100px'})
+  setInterval(function() {
+        $("#mm").css({top:t+"px"})
+        t += 30;
+        
+        if (t === 310)
+        t=100
+    }, 1000);
+    })
+
     var keyLeft = false;
     var keyRight = false;
     var x = 500;
