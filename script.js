@@ -1,50 +1,34 @@
 $(document).ready(function() {
     $("#button1").click(function(){
-          var t = 100;
- $("#gummies").css({top:'100px'})
-  setInterval(function() {
-        $("#gummies").css({top:t+"px"})
-        t += 30;
-        
-        if (t === 310)
-        t=100
-    }, 1000);
+      $("#gummies").animate({
+        top: "310px",
+      }, 3000, function(){
+           $("#gummies").css({top:'123px'})
+      });  
     })
 
-$("#button2").click(function(){
-          var t = 100;
- $("#sprinkles").css({top:'100px'})
-  setInterval(function() {
-        $("#sprinkles").css({top:t+"px"})
-        t += 30;
-        
-        if (t === 310)
-        t=100
-    }, 1000);
+    $("#button2").click(function(){
+      $("#sprinkles").animate({
+        top: "310px",
+      }, 3000, function(){
+           $("#sprinkles").css({top:'123px'})
+      });  
     })
 
-$("#button3").click(function(){
-          var t = 100;
- $("#chocolate").css({top:'100px'})
-  setInterval(function() {
-        $("#chocolate").css({top:t+"px"})
-        t += 30;
-        
-        if (t === 310)
-        t=100
-    }, 1000);
+    $("#button3").click(function(){
+      $("#chocolate").animate({
+        top: "310px",
+      }, 3000, function(){
+           $("#chocolate").css({top:'123px'})
+      });  
     })
 
-$("#button4").click(function(){
-          var t = 100;
- $("#mm").css({top:'100px'})
-  setInterval(function() {
-        $("#mm").css({top:t+"px"})
-        t += 30;
-        
-        if (t === 310)
-        t=100
-    }, 1000);
+    $("#button4").click(function(){
+      $("#mm").animate({
+        top: "310px",
+      }, 3000, function(){
+           $("#mm").css({top:'123px'})
+      });  
     })
 
     var keyLeft = false;
