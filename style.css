@@ -1,6 +1,6 @@
 body {
     background-image: url('http://images5.fanpop.com/image/photos/30700000/The-Beach-coney-island-30740799-1115-740.jpg');
-    background-size: 1370px 700px;
+    background-size: 1370px 1000px;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -109,6 +109,10 @@ body {
     z-index: 1;
 }
 
+.img-thumbnail{
+border-radius:50px;
+}
+
 #text1 {
     z-index: 1;
     font-size: 40px;
@@ -117,11 +121,13 @@ body {
     background: transparent;
     box-sizing: border-box;
     position:fixed;
-    left: 550px;
-    font-family: "Comic Sans MS";
-    border: 10px dashed;
-    border-color: cyan;
-    border-radius: 10px;
+    margin-left:40%;
+    /*left: 550px;*/
+    font-family: "Comic Sans";
+    border: 10px;
+    border-style: ridge;
+    border-color: Silver;
+    border-radius: 30px;
 }
 
 #img {
