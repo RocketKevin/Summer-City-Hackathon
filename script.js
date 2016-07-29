@@ -7,8 +7,8 @@ $(document).ready(function() {
                 top: '123px'
             })
             if ($("#coneimage").position().left === 330)
-                window.location = "icecream1.html"
-            
+        //        window.location = "icecream1.html"
+          $("#coneimage").attr("src","project imgs/Vanilla-Cone-Gummy-Bears.png");  
         });
     })
 
@@ -20,7 +20,9 @@ $(document).ready(function() {
                 top: '157px'
             })
             if ($("#coneimage").position().left === 530 )
-                window.location = "icecream2.html"
+           //     window.location = "icecream2.html"
+               $("#coneimage").attr("src","project imgs/Vanilla-Cone-Sprinkles.png");  
+
         });
     })
 
@@ -32,7 +34,9 @@ $(document).ready(function() {
                 top: '123px'
             })
             if ($("#coneimage").position().left === 730)
-                window.location = "icecream3.html"
+         //       window.location = "icecream3.html"
+                   $("#coneimage").attr("src","project imgs/Vanilla-Cone-Chocolate-Chip.png");  
+
         });
     })
 
@@ -44,7 +48,8 @@ $(document).ready(function() {
                 top: '123px'
             })
             if ($("#coneimage").position().left === 925)
-                window.location = "icecream4.html"
+    //            window.location = "icecream4.html"
+              $("#coneimage").attr("src","project imgs/Vanilla-Cone-Reeses-Pieces.png");  
         });
     })
 
