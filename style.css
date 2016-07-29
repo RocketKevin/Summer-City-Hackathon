@@ -110,7 +110,8 @@ body {
 }
 
 .img-thumbnail{
-border-radius:50px;
+border-radius:15px;
+position:relative;
 }
 
 #text1 {
